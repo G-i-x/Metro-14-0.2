@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by vanflow0281 (discord) for metro-14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "mini_ru_i"
+    },
+    {
+      "name": "mini_ru_ie"
+    },
+    {
+      "name": "mini_ru_ii"
+    },
+    {
+      "name": "mini_ru_iy"
+    },
+    {
+      "name": "mini_ru_k"
+    },
+    {
+      "name": "mini_ru_l"
+    },
+    {
+      "name": "mini_ru_m"
+    },
+    {
+      "name": "mini_ru_n"
+    },
+    {
+      "name": "mini_ru_o"
+    },
+    {
+      "name": "mini_ru_p"
+    },
+    {
+      "name": "mini_ru_r"
+    },
+    {
+      "name": "mini_ru_s"
+    },
+    {
+      "name": "mini_ru_sch"
+    },
+    {
+      "name": "mini_ru_sh"
+    },
+    {
+      "name": "mini_ru_softsign"
+    },
+    {
+      "name": "mini_ru_solidsign"
+    },
+    {
+      "name": "mini_ru_t"
+    },
+    {
+      "name": "mini_ru_v"
+    },
+    {
+      "name": "mini_ru_y"
+    },
+    {
+      "name": "mini_ru_ya"
+    },
+    {
+      "name": "mini_ru_yo"
+    },
+    {
+      "name": "mini_ru_yu"
+    },
+    {
+      "name": "mini_ru_z"
+    },
+    {
+      "name": "mini_ru_zh"
+    },
+    {
+      "name": "mini_ru_a"
+    },
+    {
+      "name": "mini_ru_b"
+    },
+    {
+      "name": "mini_ru_c"
+    },
+    {
+      "name": "mini_ru_ch"
+    },
+    {
+      "name": "mini_ru_d"
+    },
+    {
+      "name": "mini_ru_e"
+    },
+    {
+      "name": "mini_ru_f"
+    },
+    {
+      "name": "mini_ru_g"
+    },
+    {
+      "name": "mini_ru_h"
+    }
+  ]
+}

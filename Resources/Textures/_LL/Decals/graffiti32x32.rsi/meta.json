@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by _dizi_ (discord) for metro-14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "deathhere"
+    },
+    {
+      "name": "dick1"
+    },
+    {
+      "name": "dick2"
+    },
+    {
+      "name": "dih"
+    },
+    {
+      "name": "dontinterfere"
+    },
+    {
+      "name": "douchebag"
+    },
+    {
+      "name": "noescape"
+    },
+    {
+      "name": "putonfilter"
+    },
+    {
+      "name": "radiation"
+    },
+    {
+      "name": "schmuck"
+    },
+    {
+      "name": "stop"
+    },
+    {
+      "name": "tsoialive"
+    },
+    {
+      "name": "tsoidead"
+    },
+    {
+      "name": "cautionmutants"
+    },
+    {
+      "name": "hithimleft"
+    },
+    {
+      "name": "hithimright"
+    },
+    {
+      "name": "shelterthereleft"
+    },
+    {
+      "name": "shelterthereright"
+    },
+    {
+      "name": "worldpeace"
+    }
+  ]
+}

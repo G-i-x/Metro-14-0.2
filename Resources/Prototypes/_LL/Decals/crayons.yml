@@ -1,0 +1,568 @@
+﻿#Abstracts
+- type: decal
+  id: LLGraffiti
+  parent: Graffiti
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  abstract: true
+
+- type: decal
+  id: LLAlphabet
+  parent: Alphabet
+  tags: ["crayon", "crayon-2-alphanum"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  abstract: true
+
+#Alphabet
+#MiniRu
+- type: decal
+  id: и
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_i
+
+- type: decal
+  id: э
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_ie
+
+- type: decal
+  id: й
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_ii
+
+- type: decal
+  id: ы
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_iy
+
+- type: decal
+  id: к
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_k
+
+- type: decal
+  id: л
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_l
+
+- type: decal
+  id: м
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_m
+
+- type: decal
+  id: н
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_n
+
+- type: decal
+  id: о
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_o
+
+- type: decal
+  id: п
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_p
+
+- type: decal
+  id: р
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_r
+
+- type: decal
+  id: с
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_s
+
+- type: decal
+  id: щ
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_sch
+
+- type: decal
+  id: ш
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_sh
+
+- type: decal
+  id: ь
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_softsign
+
+- type: decal
+  id: ъ
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_solidsign
+
+- type: decal
+  id: т
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_t
+
+- type: decal
+  id: в
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_v
+
+- type: decal
+  id: у
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_y
+
+- type: decal
+  id: я
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_ya
+
+- type: decal
+  id: ё
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_yo
+
+- type: decal
+  id: ю
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_yu
+
+- type: decal
+  id: з
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_z
+
+- type: decal
+  id: ж
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_zh
+
+- type: decal
+  id: а
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_a
+
+- type: decal
+  id: б
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_b
+
+- type: decal
+  id: ц
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_c
+
+- type: decal
+  id: ч
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_ch
+
+- type: decal
+  id: д
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_d
+
+- type: decal
+  id: е
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_e
+
+- type: decal
+  id: ф
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_f
+
+- type: decal
+  id: г
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_g
+
+- type: decal
+  id: х
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_ru_alphabet.rsi
+    state: mini_ru_h
+
+#MiniEn
+- type: decal
+  id: q_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_q
+
+- type: decal
+  id: r_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_r
+
+- type: decal
+  id: s_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_s
+
+- type: decal
+  id: t_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_t
+
+- type: decal
+  id: u_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_u
+
+- type: decal
+  id: v_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_v
+
+- type: decal
+  id: w_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_w
+
+- type: decal
+  id: x_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_x
+
+- type: decal
+  id: y_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_y
+
+- type: decal
+  id: z_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_z
+
+- type: decal
+  id: a_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_a
+
+- type: decal
+  id: b_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_b
+
+- type: decal
+  id: c_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_c
+
+- type: decal
+  id: d_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_d
+
+- type: decal
+  id: e_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_e
+
+- type: decal
+  id: f_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_f
+
+- type: decal
+  id: g_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_g
+
+- type: decal
+  id: h_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_h
+
+- type: decal
+  id: i_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_i
+
+- type: decal
+  id: j_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_j
+
+- type: decal
+  id: k_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_k
+
+- type: decal
+  id: l_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_l
+
+- type: decal
+  id: m_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_m
+
+- type: decal
+  id: n_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_n
+
+- type: decal
+  id: p_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_p
+
+- type: decal
+  id: o_mini
+  parent: LLAlphabet
+  sprite:
+    sprite: _LL/Decals/mini_en_alphabet.rsi
+    state: mini_en_o
+
+#Graffiti
+- type: decal
+  id: DeathThere
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: deathhere
+
+- type: decal
+  id: Dick1
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: dick1
+
+- type: decal
+  id: Dick2
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: dick2
+
+- type: decal
+  id: Dih
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: dih
+
+- type: decal
+  id: DontInterfere
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: dontinterfere
+
+- type: decal
+  id: Douchebag
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: douchebag
+
+- type: decal
+  id: NoEscape
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: noescape
+
+- type: decal
+  id: PutOnFilter
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: putonfilter
+
+- type: decal
+  id: Radiation
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: radiation
+
+- type: decal
+  id: Schmuck
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: schmuck
+
+- type: decal
+  id: Stop
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: stop
+
+- type: decal
+  id: TsoiAlive
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: tsoialive
+
+- type: decal
+  id: TsoiDead
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: tsoidead
+
+- type: decal
+  id: WorldPeace
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: worldpeace
+
+- type: decal
+  id: CautionMutants
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: cautionmutants
+
+- type: decal
+  id: HitHimLeft
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: hithimleft
+
+- type: decal
+  id: HitHimRight
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: hithimright
+
+- type: decal
+  id: ShelterThereLeft
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: shelterthereleft
+
+- type: decal
+  id: ShelterThereRight
+  parent: LLGraffiti
+  sprite:
+    sprite: _LL/Decals/graffiti32x32.rsi
+    state: shelterthereright
