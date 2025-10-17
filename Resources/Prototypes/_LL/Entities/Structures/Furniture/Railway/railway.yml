@@ -1,0 +1,72 @@
+﻿# TODO finish and add localisation
+- type: entity
+  id: LLRailwayBase
+  parent: BaseStructure
+  name: железная дорога
+  description: "Рельсы, шпалы, кирпичи..."
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: FloorTiles
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+
+- type: entity
+  id: LLrailway
+  parent: LLRailwayBase
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: Railway
+
+- type: entity
+  id: LLRailwayRailLeft
+  parent: LLRailwayBase
+  suffix: Без правой рельсы
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: RailwayRailLeft
+
+- type: entity
+  id: LLRailwayRailRight
+  parent: LLRailwayBase
+  suffix: Без левой рельсы
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: RailwayRailRight
+
+- type: entity
+  id: LLRailwayTurned
+  parent: LLRailwayBase
+  suffix: Поворот
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: RailwayTurned
+
+- type: entity
+  id: LLRailwayTurnout
+  parent: LLRailwayBase
+  suffix: Стрелочный перевод
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: RailwayTurnout
+
+- type: entity
+  id: LLRailwaySleepers
+  parent: LLRailwayBase
+  suffix: Шпалы
+  components:
+  - type: Sprite
+    sprite: _LL/Structures/Furniture/Railway.rsi
+    layers:
+    - state: Sleepers

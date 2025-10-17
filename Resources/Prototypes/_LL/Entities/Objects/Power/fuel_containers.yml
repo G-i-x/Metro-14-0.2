@@ -1,0 +1,15 @@
+﻿- type: entity
+  parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
+  id: BottleWeldingFuel
+  name: пивная бутылка
+  description: Пивная бутылка.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 50
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 50
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/beer.rsi
